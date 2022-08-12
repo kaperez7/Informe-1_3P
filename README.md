@@ -3,6 +3,11 @@
 
 1. OBJETIVOS
 
+Usar el Teorema de Superposición, Transferencia de Potencia y Thevenin, mediante la simulacion de los circuitos usando la herramienta tinkercad, para medir la corriente y voltaje.
+
+* Explicar en que consisten los teoremas.
+* Encontrar la corrinet y voltaje aplicando los diferentes teoremas.
+* Simular los circuitos en tinkercad.
 
 
 2. MARCO TEÓRICO 
@@ -30,7 +35,7 @@ Este teorema permite analizar circuitos lineales que contengan más de una fuent
 
 4.-Sumar algebraicamente las corrientes producidas por cada fuente individual para encontrar la corrientereal en una rama dada. (Si las corrientes estan en la misma direccion, se suman. Si estan en direcciones opuestas, se restan y la direccion de la corriente resultante será la misma que la presentada por la cantidad más grande de las cantidades originales.) Una vez determinada la corriente, ya se puede calcular el voltaje mediante la ley de Ohm.
 
-**TEOREMA DE MÁXIMA TRASFERENCIA DE POTENCIA**}
+**TEOREMA DE MÁXIMA TRASFERENCIA DE POTENCIA**
 
 El teorema de transferencia de potencia maxima nos dice que la resistencia de carga queresulta en la mayor disipación de potencia es igual en valor a la resistencia de Thevenin.
 
@@ -68,26 +73,68 @@ El teorema de transferencia de potencia maxima nos dice que la resistencia de ca
 
 3. EXPLICACIÓN DEL PROCEDIMIENTO
 
-En este punto se debe explicar cómo funcionan la implementación del circuito y los cálculos de respaldo.
+**Ejercicio 1**
 
-Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
-* Diagramas de bloques.
-* Diagramas UML. (casos de uso-clase)
-* Diagramas eléctricos.
-* Diagramas esquemáticos.
+![image](https://user-images.githubusercontent.com/105570939/184242133-d6398aee-6005-4267-863f-ef3b207e4db4.png)
 
-Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicación de los circuitos.
+![image](https://user-images.githubusercontent.com/105570939/184246885-44105b0a-bb5c-4ee6-a6bf-1ea2b097960b.png)
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama1.jpg)
+![image](https://user-images.githubusercontent.com/105570939/184248008-b7700da5-fbcc-420e-88e0-1b560427b7ca.png)
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama2.jpg)
+**Proceso**
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama4.jpg)
+![image](https://user-images.githubusercontent.com/105570939/184247678-fd79dabe-6e39-4d2b-995b-e9bf64738fc9.png)
 
+![image](https://user-images.githubusercontent.com/105570939/184247834-de963f61-c4a0-46dc-8d11-b4fcf028e58c.png)
+
+**Ejercicio 2**
+
+![image](https://user-images.githubusercontent.com/105570939/184248268-214b6689-b430-4e0d-bd8e-30edcdcc7d32.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184270821-305efce1-c4e6-4883-88f0-0ef4ec093e51.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184270945-41a216b6-26a8-46a9-9aee-5e7c4c3e75cd.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184271021-71fc6e1d-9528-4a44-b7ca-6f0d94f23bc8.png)
+
+**Aplicando Thevenin**
+
+![image](https://user-images.githubusercontent.com/105570939/184271621-cd78e03f-8531-4a32-b5f5-32d386aba3df.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184272108-c5afee45-6942-45fb-b51c-4eedf9de193a.png)
+
+**Ejercicio 3**
+
+![image](https://user-images.githubusercontent.com/105570939/184273687-352ab176-3f90-4f80-93ee-99efc3e7a135.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184273853-cbd1ba10-2900-437b-93b4-8533e64df643.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184274314-0efec8ce-e96c-4be8-bc41-a1f28ced076e.png)
+
+
+**Aplicando Thevenin**
+
+![image](https://user-images.githubusercontent.com/105570939/184272533-0837050f-ecee-4605-8bc6-80980d507ddc.png)
+
+![image](https://user-images.githubusercontent.com/105570939/184272554-89663db4-d80e-44e4-90cf-179be7348e24.png)
 
 4. RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
-En este punto se contestará todo lo planteado en las guías.
+**Ejercicio1**
+
+I=500-400       I=100mA
+
+**Ejercicio2**
+
+VTH=8.32 V           RTH=4.7KΩ
+
+P=IxV     P=3.78x8.32     P=31.44mW
+
+**Ejercicio 3**
+
+VTH=10 V    RTH=5Ω
+
+I=909 mA
 
 5. VIDEO
 
@@ -97,13 +144,18 @@ En el video se debe explicar 4 ejercicios o problemas.
 
 6. CONCLUSIONES
 
-Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
+* EL teorema de la Máxima Transferencia de Potencia consiste en demostrar que al implementar en un circuito una resistencia con el mismo o semejante valor a la resistencia de la fuente la potencia alcanza su máximo valor.
+* Si aplicamos el teorema de Superposición es necesario tener en cuenta que las fuentes de voltaje al igualarlas a 0 se comportan como un cortocircuito, por otro lado si tuvieramos fuentes de corriente estas se van a comportar como circuitos abiertos.
+* Simulando los circuitos en tinkercad se pudo encontrar la corriente y el voltaje de los circuitos planteados en los ejercicios.
 
 
 7. BIBLIOGRAFÍA
 
-Emplear normas APA para el informe e IEEE para el artículo
+Teorema de transferencia de potencia máxima. (s. f.). Iustrationprize. Recuperado 12 de julio de 2022, de https://illustrationprize.com/es/22-maximum-power-transfer-theorem.html
 
+Superposición (artículo). (s. f.). Khan Academy. Recuperado 28 de junio de 2022, de https://es.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-superposition
+
+Teorema de Thevenin - Explicado con ejercicios resueltos. (2021, 23 enero). Mi Universo Electrónico. Recuperado 5 de julio de 2022, de https://miuniversoelectronico.com/el-teorema-de-thevenin/
 
 RUBRICA
 
