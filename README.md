@@ -122,13 +122,17 @@ El teorema de transferencia de potencia maxima nos dice que la resistencia de ca
 
 **Ejercicio1**
 
-I=500-400       I=100mA
+I=500-400     
+
+I=100mA
 
 **Ejercicio2**
 
 VTH=8.32 V           RTH=4.7KΩ
 
-P=IxV     P=3.78x8.32     P=31.44mW
+P=IxV     P=3.78x8.32    
+
+P=31.44mW
 
 **Ejercicio 3**
 
