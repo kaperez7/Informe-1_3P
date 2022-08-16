@@ -87,6 +87,8 @@ Este teorema permite analizar circuitos lineales que contengan más de una fuent
 
 **Ejercicio 3**
 
+![image](https://user-images.githubusercontent.com/105570939/184780971-c3a93d79-3b64-4361-aada-29c5171b670a.png)
+
 ![image](https://user-images.githubusercontent.com/105570939/184273687-352ab176-3f90-4f80-93ee-99efc3e7a135.png)
 
 ![image](https://user-images.githubusercontent.com/105570939/184273853-cbd1ba10-2900-437b-93b4-8533e64df643.png)
