@@ -3,7 +3,7 @@
 
 1. OBJETIVOS
 
-Usar el Teorema de Superposición, Transferencia de Potencia y Thevenin, mediante la simulacion de los circuitos usando la herramienta tinkercad, para medir la corriente y voltaje.
+Usar el Teorema de Superposición y Thevenin, mediante la simulacion de los circuitos usando la herramienta tinkercad, para medir la corriente y voltaje.
 
 * Explicar en que consisten los teoremas.
 * Encontrar la corrinet y voltaje aplicando los diferentes teoremas.
@@ -25,7 +25,7 @@ Este teorema permite analizar circuitos lineales que contengan más de una fuent
 * Las fuentes de intensidad se suprimen por un circuito abierto.
 * La superposición no puede aplicarse directamente para el calculo de la potencia.
 
-**Pasos para aplicar el teorema de S  uperposición**
+**Pasos para aplicar el teorema de Superposición**
 
 1.-Dejar una fuente de voltaje (o de corrient) a la vez en el circuito y reemplazar cada una de las demás fuentes de voltaje (o de corriente) con su resistencia interna. Para fuentes ideales, un corto representa resistencia interna de cero y una abertura representa resistencia interna infinita.
 
@@ -34,24 +34,6 @@ Este teorema permite analizar circuitos lineales que contengan más de una fuent
 3.-Tomar la siguiente fuente que haya en el circuito y repetir los pasos 1 y 2. Hacer esto con cada una de las fuentes.
 
 4.-Sumar algebraicamente las corrientes producidas por cada fuente individual para encontrar la corrientereal en una rama dada. (Si las corrientes estan en la misma direccion, se suman. Si estan en direcciones opuestas, se restan y la direccion de la corriente resultante será la misma que la presentada por la cantidad más grande de las cantidades originales.) Una vez determinada la corriente, ya se puede calcular el voltaje mediante la ley de Ohm.
-
-**TEOREMA DE MÁXIMA TRASFERENCIA DE POTENCIA**
-
-El teorema de transferencia de potencia maxima nos dice que la resistencia de carga queresulta en la mayor disipación de potencia es igual en valor a la resistencia de Thevenin.
-
-**Pasos para resolver**
-
-1.-Descubrir la resistencia de carga del circuito. Ahora retirelo del circuito.
-
-2.-Calcule la resistencia equivalente de Thevenin del circuito desde el punto de vista de la rama de resistencia de carga en circuito abierto.
-
-3.-Ahora como dice la teoria, la nueva resistencia de carga será la resistencia equivalente de Thevenin. Esta es la resistencia responsable de la máxima transferencia de potencia.
-
-4.-Entonces se deriva la potencia máxima. 
-
-**Formula**
-
-![image](https://user-images.githubusercontent.com/105570939/184208530-6631b6ae-8946-48c7-9655-c0742c83fd4f.png)
 
 **TEOREMA DE THEVENIN**
 
