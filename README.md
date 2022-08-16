@@ -137,8 +137,6 @@ https://youtu.be/uaFEh8K6IIU
 
 7. BIBLIOGRAFÍA
 
-Teorema de transferencia de potencia máxima. (s. f.). Iustrationprize. Recuperado 12 de julio de 2022, de https://illustrationprize.com/es/22-maximum-power-transfer-theorem.html
-
 Superposición (artículo). (s. f.). Khan Academy. Recuperado 28 de junio de 2022, de https://es.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic/ee-dc-circuit-analysis/a/ee-superposition
 
 Teorema de Thevenin - Explicado con ejercicios resueltos. (2021, 23 enero). Mi Universo Electrónico. Recuperado 5 de julio de 2022, de https://miuniversoelectronico.com/el-teorema-de-thevenin/
