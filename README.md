@@ -120,15 +120,13 @@ P=31.44mW
 
 **Ejercicio 3**
 
-VTH=10 V    RTH=5Ω
+VTH=10 V           RTH=5Ω
 
 I=909 mA
 
 5. VIDEO
 
-Aqui den estar el link de youtube de los videos en los que se explique el funcionamiento y la implementación del proyecto.
-En el video se debe explicar 4 ejercicios o problemas.
-
+https://youtu.be/uaFEh8K6IIU
 
 6. CONCLUSIONES
 
